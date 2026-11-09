@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'fic.wsgi.application'
 '''
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://fic:0RdC3EoUreY0eLeDNW83rVNMKvBZq8vl@dpg-dbp1mj2jnfac7395hbug-a/fic_ls9i',
         conn_max_age=600
     )
 }
